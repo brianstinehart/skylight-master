@@ -182,14 +182,14 @@ azure_admin_pass: "MyS3cr3tP@ssw0rd"
 
 azure_client_id: ''
 azure_secret: ''
-azure_subscription_id: ''
+azure_subscription_id: 'c12a14d4-eb57-4d79-8322-b0e933053cd6'
 azure_tenant: ''
 azure_location: ''
 
 azure_storage_account_type: Standard_LRS
 
 # Instance Sizes
-azure_tower_instance_type: "Standard_A2_v2"    # Medium = 2 vCPU / 4GB
+azure_tower_instance_type: "Standard_B1s"    # Medium = 2 vCPU / 4GB
 azure_gitlab_instance_type: "Standard_A2_v2"   # Might be able to use small...
 azure_windc_instance_type: "Standard_A2_v2"
 azure_windows_workstation_instance_type: "Standard_A2_v2"
